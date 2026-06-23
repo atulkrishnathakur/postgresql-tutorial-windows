@@ -25,5 +25,6 @@
 <img width="687" height="536" alt="image" src="https://github.com/user-attachments/assets/ef1c7e37-55be-44e2-a0cf-3b9bf75deb77" />
 
 
-
+# Uninstallation
+1. After uninstallation delete the `C:\Program Files\PostgreSQL` PostgreSQL directory otherwise it not ask to set password
 
