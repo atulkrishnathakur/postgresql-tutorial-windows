@@ -1,6 +1,8 @@
 # download postgresql
 1. https://www.postgresql.org/download/
 2. you can download from https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+# befor installation
+1. before installation delete the `C:\Program Files\PostgreSQL` PostgreSQL directory otherwise it not ask to set super user password
 
 # install postgresql in windows
 <img width="683" height="556" alt="image" src="https://github.com/user-attachments/assets/ba5096fb-ade8-4835-ae4f-7a655e3e1b33" />
@@ -25,6 +27,5 @@
 <img width="687" height="536" alt="image" src="https://github.com/user-attachments/assets/ef1c7e37-55be-44e2-a0cf-3b9bf75deb77" />
 
 
-# Uninstallation
-1. After uninstallation delete the `C:\Program Files\PostgreSQL` PostgreSQL directory otherwise it not ask to set password
+
 
