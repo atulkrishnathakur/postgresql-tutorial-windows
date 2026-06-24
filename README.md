@@ -63,5 +63,37 @@ postgres=#
 D:\>"C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d your_database_name -f "D:\path\to\abc.sql"
 ```
 
+# How to check connection information
+```
+D:\>"C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres
+Password for user postgres:
 
+psql (18.4)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=# \conninfo
+      Connection Information
+      Parameter       |   Value
+----------------------+-----------
+ Database             | postgres
+ Client User          | postgres
+ Host                 | localhost
+ Host Address         | ::1
+ Server Port          | 5432
+ Options              |
+ Protocol Version     | 3.0
+ Password Used        | true
+ GSSAPI Authenticated | false
+ Backend PID          | 35312
+ SSL Connection       | false
+ Superuser            | on
+ Hot Standby          | off
+(13 rows)
+
+
+postgres=#
+```
 
