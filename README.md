@@ -27,5 +27,37 @@
 <img width="687" height="536" alt="image" src="https://github.com/user-attachments/assets/ef1c7e37-55be-44e2-a0cf-3b9bf75deb77" />
 
 
+# how to use postgresql in cmd without path set environment variable
+1. check verrion
+```
+C:\Users\Atul Krishna Thakur> cd C:\Program Files\PostgreSQL\18\bin
+
+C:\Program Files\PostgreSQL\18\bin>psql --version
+psql (PostgreSQL) 18.4
+
+C:\Program Files\PostgreSQL\18\bin>
+```
+OR
+```
+D:\>"C:\Program Files\PostgreSQL\18\bin\psql.exe" --version
+psql (PostgreSQL) 18.4
+
+D:\>
+```
+
+# how to use `postgres` in cmd without path set environment variable
+```
+D:\>"C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres
+Password for user postgres:
+
+psql (18.4)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=#
+```
+
 
 
