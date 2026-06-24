@@ -58,6 +58,10 @@ Type "help" for help.
 
 postgres=#
 ```
+# how to import a database by CMD
+```
+D:\>"C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -d your_database_name -f "D:\path\to\abc.sql"
+```
 
 
 
