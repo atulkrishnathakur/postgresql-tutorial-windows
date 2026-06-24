@@ -97,3 +97,20 @@ postgres=# \conninfo
 postgres=#
 ```
 
+# Create the postgresql database url
+1. Syntax
+```
+postgresql://username:password@localhost:5432/database_name
+```
+2. verify database url 
+```
+D:\>"C:\Program Files\PostgreSQL\18\bin\psql.exe" -d "postgresql://postgres:1234@localhost:5432/mydbsample"
+psql (18.4)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+dvdrental=#
+```
+
